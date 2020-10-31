@@ -149,7 +149,12 @@ but for function expression it will again partially hoisted.
 
 
 
+IIFE
+immediate invoked function expression
 
+(function() {
+	//do someting
+})();
 
 */
 
