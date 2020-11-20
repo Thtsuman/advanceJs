@@ -156,5 +156,27 @@ immediate invoked function expression
 	//do someting
 })();
 
+
+THIS
+-> this is the object that the function is a property of 
+
+
+Function borrowing
+it bind one object method to another object
+
+call() 
+=> a() === a.call()
+js under the hood add call() method to a function and when we call
+them it read as "a.call()" 
+
+call() takes (bind object, argument1, argument2, ...)
+for eg: objectA.someMethods(objectB, arg1, arg2 ...)
+
+apply()
+=> a() === a.apply()
+apply() takes (bind object, [argument1, argument2, ...])
+for eg: objectA.someMethods(objectB, [arg1, arg2 ...])
+
+
 */
 
