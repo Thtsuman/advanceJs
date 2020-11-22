@@ -20,4 +20,6 @@ diff btw null and undefined
 
 undefined is absence of defination
 null is absence of value
+
+
 */
