@@ -62,13 +62,13 @@ JS Runtime
 
 
 Call Stack
--> it store or record every functions or methods excuted in the file
+-> it store or record every functions or methods running in the file
 	It works as first in last out.
-	it also help to keep track the excution path of the code
+	it also help to keep track the running path of the code
 
 Stack Overflow
 -> it happen when we only push method or function to the stack
-	but it never be pop out..resources are limited so it will 
+	but it never been poped out..resources are limited so it will 
 	fill all the stack..and create a stack overflow
 
 	Now Browser prevent this type of script..to minimize the crashes 
@@ -89,8 +89,8 @@ collector. It monitors all objects and removes those that have become unreachabl
 Js is a synchronous code (a bunch of command in a sequence).
 Web API is present in every browser. These are asynchronous method.
 
-first call stack will check if it from web api ..web api will take and do his job in background
-and js engine will continue with the stack..once web api finished with the task, he will return
+first call stack will check if it a web api(async work) ..web api will take and do his job in background
+and js engine will continue with the stack(sync work)..once web api finished with the task, he will return
 some callback function or data. it will save on callback queue..Event loop always moniter the call
 stack and only push the callback queue only when the call stack is empty.
 

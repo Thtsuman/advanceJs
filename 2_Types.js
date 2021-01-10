@@ -2,7 +2,7 @@
 
 Types In Js
 
-Primitive => data that only a single value
+Primitive => data that only holds a single value
 * number => 4
 * string => 'hello'
 * boolean => true / false
